@@ -6,81 +6,58 @@
 }
 
 .box {
-  width: 30%;
-  height: 100%;
+  width: 31%;
+  height: 600px;
   float: left;
   box-sizing: border-box;
-  background-color: rgb(49, 255, 22);
+  background-color: rgb(171, 253, 93);
   margin: 1em;
   padding: 0;
 }
 
 .inbox1 {
-  width: 42%;
-  height: 274px;
+  width: 44%;
+  height: 260px;
   float: left;
-  background-color: green;
+  background-color: grey;
   margin: 1em;
 }
 
-.inbox2 {
-  width: 86%;
-  height: 270x;
-  margin-top: 1em;
-  float: left;
-  box-sizing: border-box;
-  background-color: green;
-  padding: 1em;
-}
 
 .inbox3 {
   margin: 1em;
-  width: 42%;
+  width: 94%;
   float: left;
-  height: 90%;
-  background-color: green;
+  height: 44%;
+  background-color: grey;
 }
 
-/* .inbox4 {
-  margin: 1em;
-  width: 12%;
-  height: 240px;
-  float: left;
-  background-color: green;
-} */
 
 .inbox5 {
-  margin: 1em;
-  width: 40%;
-  height: 240px;
-  background-color: green;
+  margin-top: 4em;
+  margin-left: 5em;
+  margin-right: 5em;
+  width: 70%;
+  height: 40%;
+  background-image: url('https://images.pexels.com/photos/2145878/pexels-photo-2145878.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  background-color: grey;
   float: left;
 }
 
 .inbox6 {
-  width: 48%;
-  height: 180px;
-  background-color: green;
+  width: 70%;
+  height: 40%;
+  background-color: grey;
   float: right;
   margin-top: 1em;
-  margin-left: 1em;
-}
-
-.inbox7 {
-  width: 44%;
-  height: 260px;
-  background-color: green;
-  float: right;
-  margin-top: 3em;
-  margin-right: 1em;
-}
-
-.inbox8 {
-  width: 34%;
-  height: 180px;
-  background-color: green;
-  float: left;
-  margin-top: 1em;
+  margin-left: 5em;
+  margin-right: 5em;
 }
 
 @media screen and (max-width: 768px) {
@@ -90,5 +67,34 @@
 
   .grid {
     width: 100%;
+  }
+
+  .inbox5 {
+    margin: 1em;
+    width: 94%;
+    height: 240px;
+    background-color: green;
+    float: left;
+    background-image: url('https://images.pexels.com/photos/2145878/pexels-photo-2145878.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .inbox6 {
+    margin: 1em;
+    width: 94%;
+    height: 260px;
+    background-color: green;
+    float: left;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    
   }
 }
